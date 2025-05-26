@@ -1,0 +1,100 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #fdf9f6;
+  color: #333;
+}
+
+.bg-hero {
+  background-color: #6a78f5;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.text-hero {
+  color: white;
+}
+
+.img-card {
+  height: 200px; /* o l'alçada que vulguis */
+  object-fit: cover; /* manté proporcions i omple el contenidor */
+  width: 100%;
+}
+
+.img-section {
+  max-width: 100%;
+  height: 300px; /* o 'auto' si no vols forçar l'alçada */
+  object-fit: cover; /* manté proporció i retalla si cal */
+  display: block;
+  margin: 0 auto; /* centra horitzontalment */
+}
+
+.section-title {
+  color: #6a78f5;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #333;
+}
+
+.btn-outline-primary {
+  border-color: #6a78f5;
+  color: #6a78f5;
+}
+
+.btn-outline-primary:hover {
+  background-color: #6a78f5;
+  color: white;
+}
+
+.video-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper video {
+  max-width: 95%;      /* ajusta el tamaño de los videos */
+  height: auto;
+  border-radius: 12px; /* esquinas redondeadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* sombra sutil */
+}
+
+nav.navbar {
+  background-color: #6a78f5 !important;
+}
+
+/* Estilo del logo */
+.logo-navbar {
+  height: 40px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Animación cuando se pasa el raton por encima */
+.logo-navbar:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+
+/* Estilo del titulo del sitio */
+.site-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 576px) {
+  .logo-navbar {
+    height: 32px;
+  }
+
+  .site-title {
+    font-size: 1rem;
+  }
+}
